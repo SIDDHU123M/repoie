@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at 50% -20%, #2a1f62, #1a1a2e 50%);
+  background-attachment: fixed;
+  font-feature-settings: "ss01", "ss02", "cv01", "cv02";
+}
+
+/* Glassmorphic effect */
+.glassmorphic {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 
+    0 8px 32px 0 rgba(0, 0, 0, 0.3),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+/* Custom scrollbar */
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 2px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+}
+
+.scrollbar-thin:hover::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Code block styles */
+pre {
+  position: relative;
+  background: transparent !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+pre code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  line-height: 1.75 !important;
+  font-size: 0.875rem !important;
+  padding: 0 !important;
+}
+
+/* Hide scrollbar for code blocks */
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Syntax highlighting enhancements */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #636e7b;
+}
+
+.token.function {
+  color: #5b9cf6;
+}
+
+.token.keyword {
+  color: #c678dd;
+}
+
+.token.string {
+  color: #98c379;
+}
+
+.token.number {
+  color: #d19a66;
+}
+
+/* Typography enhancements */
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  font-feature-settings: "ss01", "ss02", "cv01", "cv02";
+  letter-spacing: -0.02em;
+}
+
+/* List styling */
+.prose ul,
+.prose ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Image hover effects */
+.prose img {
+  transform-origin: center;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  will-change: transform;
+}
+
+/* Glow effects */
+.glow-sm {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+}
+
+.glow-md {
+  box-shadow: 0 0 25px rgba(59, 130, 246, 0.5);
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Loading animation */
+@keyframes pulse-ring {
+  0% { transform: scale(0.95); opacity: 0.5; }
+  50% { transform: scale(1.05); opacity: 0.8; }
+  100% { transform: scale(0.95); opacity: 0.5; }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
