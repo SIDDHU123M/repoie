@@ -1,3 +1,7 @@
+---
+icon: js
+---
+
 # JavaScript
 
 ## **JavaScript Mastery Roadmap**
@@ -10,24 +14,24 @@ This **detailed roadmap** will take you from **beginner to advanced** in **JavaS
 
 ✅ **Basic Syntax & Core Concepts**
 
-* Variables (var, let, const)
-* Data Types (string, number, boolean, null, undefined, symbol, bigint)
-* Operators (+, -, *, /, %, ++, --, &&, ||, !)
-* Conditional Statements (if-else, switch-case)
-* Loops (for, while, do-while, forEach)
+* Variables (`var`, `let`, `const`)
+* Data Types (`string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`)
+* Operators (`+`, `-`, `*`, `/`, `%`, `++`, `--`, `&&`, `||`, `!`)
+* Conditional Statements (`if-else`, `switch-case`)
+* Loops (`for`, `while`, `do-while`, `forEach`)
 
 ✅ **Functions & Scope**
 
 * Function Declarations & Expressions
-* Arrow Functions (() => {})
+* Arrow Functions (`() => {}`)
 * Default Parameters & Rest Parameters
 * Closures & Lexical Scope
 
 ✅ **Arrays & Objects**
 
-* Array Methods (map, filter, reduce, find, some, every, sort)
-* Object Methods (Object.keys(), Object.values(), Object.entries())
-* Deep Copy vs. Shallow Copy (spread, structuredClone())
+* Array Methods (`map`, `filter`, `reduce`, `find`, `some`, `every`, `sort`)
+* Object Methods (`Object.keys()`, `Object.values()`, `Object.entries()`)
+* Deep Copy vs. Shallow Copy (`spread`, `structuredClone()`)
 
 📌 **Mini Projects:**
 
@@ -41,27 +45,27 @@ This **detailed roadmap** will take you from **beginner to advanced** in **JavaS
 ✅ **ES6+ Features**
 
 * Template Literals & String Interpolation
-* Destructuring (const { name } = obj;)
-* Spread & Rest Operators (...)
-* Modules (import/export)
+* Destructuring (`const { name } = obj;`)
+* Spread & Rest Operators (`...`)
+* Modules (`import`/`export`)
 
 ✅ **Asynchronous JavaScript**
 
 * Callbacks & Callback Hell
-* Promises (.then(), .catch())
-* async/await & Error Handling
+* Promises (`.then()`, `.catch()`)
+* `async/await` & Error Handling
 
 ✅ **Object-Oriented Programming (OOP) in JavaScript**
 
 * Prototypes & Prototype Chain
-* Classes & Inheritance (class Parent extends Child {})
+* Classes & Inheritance (`class Parent extends Child {}`)
 * Encapsulation, Abstraction, Polymorphism
 
 ✅ **DOM Manipulation & Event Handling**
 
-* Selecting Elements (querySelector, getElementById)
-* Handling Events (addEventListener, removeEventListener)
-* Creating & Modifying Elements (appendChild, removeChild)
+* Selecting Elements (`querySelector`, `getElementById`)
+* Handling Events (`addEventListener`, `removeEventListener`)
+* Creating & Modifying Elements (`appendChild`, `removeChild`)
 
 📌 **Mini Projects:**
 
@@ -82,7 +86,7 @@ This **detailed roadmap** will take you from **beginner to advanced** in **JavaS
 
 * Preventing XSS (Cross-Site Scripting)
 * Avoiding CSRF (Cross-Site Request Forgery)
-* Using Content Security Policy (CSP)
+* Using `Content Security Policy (CSP)`
 
 📌 **Mini Projects:**
 

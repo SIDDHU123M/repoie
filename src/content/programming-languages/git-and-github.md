@@ -1,3 +1,7 @@
+---
+icon: github
+---
+
 # Git & Github
 
 ## **Git & GitHub Mastery Roadmap**
@@ -16,11 +20,11 @@ This **detailed roadmap** will take you from **beginner to expert** in **Git & G
 
 ✅ **Basic Git Commands & Concepts**
 
-* git init – Initialize a repository
-* git status – Check repo status
-* git add . – Add changes to staging
-* git commit -m "message" – Save changes
-* git log – View commit history
+* `git init` – Initialize a repository
+* `git status` – Check repo status
+* `git add .` – Add changes to staging
+* `git commit -m "message"` – Save changes
+* `git log` – View commit history
 
 📌 **Mini Projects:**
 
@@ -34,12 +38,12 @@ This **detailed roadmap** will take you from **beginner to expert** in **Git & G
 ✅ **Connecting to GitHub & Remote Repos**
 
 * Creating a GitHub repository
-* Cloning (git clone) & adding remote (git remote add origin)
-* Pushing changes (git push origin main)
+* Cloning (`git clone`) & adding remote (`git remote add origin`)
+* Pushing changes (`git push origin main`)
 
 ✅ **Fetching & Pulling Changes**
 
-* git fetch vs git pull
+* `git fetch` vs `git pull`
 * Handling merge conflicts
 
 📌 **Mini Projects:**
@@ -53,9 +57,9 @@ This **detailed roadmap** will take you from **beginner to expert** in **Git & G
 
 ✅ **Branching & Merging in Git**
 
-* Creating branches (git branch feature-branch)
-* Switching branches (git checkout feature-branch)
-* Merging (git merge feature-branch)
+* Creating branches (`git branch feature-branch`)
+* Switching branches (`git checkout feature-branch`)
+* Merging (`git merge feature-branch`)
 
 ✅ **Collaboration with GitHub**
 
@@ -74,13 +78,13 @@ This **detailed roadmap** will take you from **beginner to expert** in **Git & G
 
 ✅ **Rebasing & Cherry-Picking**
 
-* git rebase vs git merge
-* git cherry-pick – Selectively apply commits
+* `git rebase` vs `git merge`
+* `git cherry-pick` – Selectively apply commits
 
 ✅ **Git Stashing & Resetting**
 
-* git stash – Save work without committing
-* git reset vs git revert
+* `git stash` – Save work without committing
+* `git reset` vs `git revert`
 
 📌 **Mini Projects:**
 
@@ -98,7 +102,7 @@ This **detailed roadmap** will take you from **beginner to expert** in **Git & G
 
 ✅ **GitHub Packages & Releases**
 
-* Versioning & Tagging Releases (git tag v1.0.0)
+* Versioning & Tagging Releases (`git tag v1.0.0`)
 * Publishing Packages to GitHub Registry
 
 📌 **Mini Projects:**
@@ -118,8 +122,8 @@ This **detailed roadmap** will take you from **beginner to expert** in **Git & G
 ✅ **Best Practices in Git & GitHub**
 
 * Semantic Commit Messages (feat, fix, refactor)
-* Using .gitignore for Ignoring Files
-* Signing Commits (git commit -S)
+* Using `.gitignore` for Ignoring Files
+* Signing Commits (`git commit -S`)
 
 📌 **Mini Projects:**
 

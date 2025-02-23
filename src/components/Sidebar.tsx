@@ -1,6 +1,18 @@
-import React, { useState } from 'react';
-import { Category } from '../types';
-import { BookCopy as BookCode, Blocks, Wrench, ChevronDown } from 'lucide-react';
+import React, { useState } from "react";
+import { Category } from "../types";
+import {
+  BookCopy as BookCode,
+  Blocks,
+  Wrench,
+  ChevronDown,
+  Compass,
+  Monitor,
+  Shield,
+  Database,
+  Cloud,
+  Cpu,
+  Star,
+} from "lucide-react";
 
 interface SidebarProps {
   categories: Category[];
@@ -9,16 +21,29 @@ interface SidebarProps {
 }
 
 const categoryIcons = {
-  'BookCode': BookCode,
-  'Blocks': Blocks,
-  'Wrench': Wrench,
+  BookCode: BookCode,
+  Blocks: Blocks,
+  Wrench: Wrench,
+  Compass: Compass,
+  Monitor: Monitor,
+  Shield: Shield,
+  Database: Database,
+  Cloud: Cloud,
+  Cpu: Cpu,
+  Star: Star,
 };
 
-export default function Sidebar({ categories, selectedItem, onSelectItem }: SidebarProps) {
-  const [expandedCategories, setExpandedCategories] = useState<Set<string>>(new Set(['programming']));
+export default function Sidebar({
+  categories,
+  selectedItem,
+  onSelectItem,
+}: SidebarProps) {
+  const [expandedCategories, setExpandedCategories] = useState<Set<string>>(
+    new Set(["programming"])
+  );
 
   const toggleCategory = (categoryId: string) => {
-    setExpandedCategories(prev => {
+    setExpandedCategories((prev) => {
       const newSet = new Set(prev);
       if (newSet.has(categoryId)) {
         newSet.delete(categoryId);
@@ -42,7 +67,8 @@ export default function Sidebar({ categories, selectedItem, onSelectItem }: Side
           <nav className="space-y-4">
             {categories.map((category) => {
               const isExpanded = expandedCategories.has(category.id);
-              const Icon = categoryIcons[category.icon as keyof typeof categoryIcons];
+              const Icon =
+                categoryIcons[category.icon as keyof typeof categoryIcons];
 
               return (
                 <div key={category.id} className="space-y-2">
@@ -54,27 +80,43 @@ export default function Sidebar({ categories, selectedItem, onSelectItem }: Side
                       <Icon className="w-5 h-5" />
                       <span className="font-medium">{category.name}</span>
                     </div>
-                    <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} />
+                    <ChevronDown
+                      className={`w-4 h-4 transition-transform duration-300 ${
+                        isExpanded ? "rotate-180" : ""
+                      }`}
+                    />
                   </button>
-                  
-                  <div className={`space-y-1 transition-all duration-300 ${isExpanded ? 'opacity-100' : 'opacity-0 h-0 overflow-hidden'}`}>
+
+                  <div
+                    className={`space-y-1 transition-all duration-300 ${
+                      isExpanded
+                        ? "opacity-100"
+                        : "opacity-0 h-0 overflow-hidden"
+                    }`}
+                  >
                     {category.items.map((item) => (
                       <button
                         key={item.id}
                         onClick={() => onSelectItem(item.id)}
                         className={`w-full flex items-center space-x-3 px-4 py-2 rounded-lg transition-all duration-300 group relative overflow-hidden ${
                           selectedItem === item.id
-                            ? 'bg-white/10 text-white shadow-lg border border-white/10 glow-sm'
-                            : 'text-white/70 hover:bg-white/[0.07] hover:text-white hover:shadow-md hover:scale-[1.02] active:scale-[0.99]'
+                            ? "bg-white/10 text-white shadow-lg border border-white/10 glow-sm"
+                            : "text-white/70 hover:bg-white/[0.07] hover:text-white hover:shadow-md hover:scale-[1.02] active:scale-[0.99]"
                         }`}
                       >
-                        <div className={`absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 opacity-0 transition-opacity duration-300 ${
-                          selectedItem === item.id ? 'opacity-100' : 'group-hover:opacity-50'
-                        }`} />
-                        <i 
+                        <div
+                          className={`absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 opacity-0 transition-opacity duration-300 ${
+                            selectedItem === item.id
+                              ? "opacity-100"
+                              : "group-hover:opacity-50"
+                          }`}
+                        />
+                        <i
                           className={`${item.icon} text-xl transition-all duration-300 group-hover:scale-110 relative z-10`}
                         />
-                        <span className="font-medium tracking-wide relative z-10">{item.name}</span>
+                        <span className="font-medium tracking-wide relative z-10">
+                          {item.name}
+                        </span>
                       </button>
                     ))}
                   </div>

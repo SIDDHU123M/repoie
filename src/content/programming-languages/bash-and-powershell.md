@@ -1,3 +1,7 @@
+---
+icon: scroll-old
+---
+
 # Bash & PowerShell
 
 ## **Bash & PowerShell Mastery Roadmap**
@@ -10,26 +14,26 @@ This **detailed roadmap** will take you from **beginner to expert** in **Bash & 
 
 ✅ **Understanding Shell Scripting**
 
-* What is a Shell? (bash, sh, zsh, PowerShell)
+* What is a Shell? (`bash`, `sh`, `zsh`, `PowerShell`)
 * Differences Between Bash & PowerShell
-* Running Shell Scripts (.sh, .ps1 execution)
-* File Permissions (chmod +x script.sh, Set-ExecutionPolicy)
+* Running Shell Scripts (`.sh`, `.ps1` execution)
+* File Permissions (`chmod +x script.sh`, `Set-ExecutionPolicy`)
 
 ✅ **Basic Commands & Scripting**\
 **Bash:**
 
-* File & Directory Commands (ls, cd, mkdir, rm, cp, mv)
-* Text Processing (cat, echo, grep, awk, sed)
-* Variables ($VAR, export VAR)
-* Loops (for, while, until)
-* Conditionals (if, case)
+* File & Directory Commands (`ls`, `cd`, `mkdir`, `rm`, `cp`, `mv`)
+* Text Processing (`cat`, `echo`, `grep`, `awk`, `sed`)
+* Variables (`$VAR`, `export VAR`)
+* Loops (`for`, `while`, `until`)
+* Conditionals (`if`, `case`)
 
 **PowerShell:**
 
-* Cmdlets (Get-ChildItem, Set-Location, Remove-Item)
-* Variables ($var = "Hello")
-* Loops (ForEach, While, Do Until)
-* Conditionals (If-Else, Switch)
+* Cmdlets (`Get-ChildItem`, `Set-Location`, `Remove-Item`)
+* Variables (`$var = "Hello"`)
+* Loops (`ForEach`, `While`, `Do Until`)
+* Conditionals (`If-Else`, `Switch`)
 
 📌 **Mini Projects:**
 
@@ -42,22 +46,22 @@ This **detailed roadmap** will take you from **beginner to expert** in **Bash & 
 
 ✅ **File & Process Management**
 
-* Process Handling (ps, kill, top, Task Manager)
-* Automating User & System Tasks (cron, schtasks)
-* Handling Logs & Errors (syslog, Event Viewer)
+* Process Handling (`ps`, `kill`, `top`, `Task Manager`)
+* Automating User & System Tasks (`cron`, `schtasks`)
+* Handling Logs & Errors (`syslog`, `Event Viewer`)
 
 ✅ **Networking & Security Automation**\
 **Bash:**
 
-* Network Scanning (nmap, netstat, ip route)
-* SSH Automation (ssh-keygen, scp, rsync)
-* Firewall & Security Hardening (iptables, ufw)
+* Network Scanning (`nmap`, `netstat`, `ip route`)
+* SSH Automation (`ssh-keygen`, `scp`, `rsync`)
+* Firewall & Security Hardening (`iptables`, `ufw`)
 
 **PowerShell:**
 
-* Managing Network Adapters (Get-NetAdapter, Test-NetConnection)
-* Automating Windows Defender (Get-MpThreat, Start-MpScan)
-* Running Remote Commands (Invoke-Command)
+* Managing Network Adapters (`Get-NetAdapter`, `Test-NetConnection`)
+* Automating Windows Defender (`Get-MpThreat`, `Start-MpScan`)
+* Running Remote Commands (`Invoke-Command`)
 
 📌 **Mini Projects:**
 
@@ -71,18 +75,18 @@ This **detailed roadmap** will take you from **beginner to expert** in **Bash & 
 ✅ **System & User Management**\
 **Bash:**
 
-* User Creation & Permission Management (useradd, chown, chmod)
-* System Monitoring (htop, df -h, du -sh)
+* User Creation & Permission Management (`useradd`, `chown`, `chmod`)
+* System Monitoring (`htop`, `df -h`, `du -sh`)
 
 **PowerShell:**
 
-* Active Directory Management (Get-ADUser, New-ADUser)
-* Windows Event Log Analysis (Get-EventLog)
+* Active Directory Management (`Get-ADUser`, `New-ADUser`)
+* Windows Event Log Analysis (`Get-EventLog`)
 
 ✅ **Ethical Hacking & Pentesting Automation**
 
-* Automating Recon (whois, dig, nslookup, traceroute)
-* Brute Force Automation (hydra, John the Ripper)
+* Automating Recon (`whois`, `dig`, `nslookup`, `traceroute`)
+* Brute Force Automation (`hydra`, `John the Ripper`)
 * Automating Metasploit & Exploit Scripts
 
 📌 **Mini Projects:**
@@ -96,13 +100,13 @@ This **detailed roadmap** will take you from **beginner to expert** in **Bash & 
 
 ✅ **Enterprise Automation & CI/CD**
 
-* Writing Bash Scripts for CI/CD (Jenkins, GitHub Actions)
-* PowerShell for Windows Server Automation (Azure, AWS)
+* Writing Bash Scripts for CI/CD (`Jenkins`, `GitHub Actions`)
+* PowerShell for Windows Server Automation (`Azure`, `AWS`)
 
 ✅ **Hardening & Security**
 
-* Secure Shell Scripting Best Practices (set -e, trap)
-* PowerShell Execution Policy & Security (Set-ExecutionPolicy Restricted)
+* Secure Shell Scripting Best Practices (`set -e`, `trap`)
+* PowerShell Execution Policy & Security (`Set-ExecutionPolicy Restricted`)
 
 📌 **Final Projects:**
 

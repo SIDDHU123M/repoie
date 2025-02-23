@@ -1,3 +1,7 @@
+---
+icon: python
+---
+
 # Python
 
 ## **Python Mastery Roadmap**
@@ -13,7 +17,7 @@ This is a **detailed roadmap** for learning **Python**, covering everything from
 * Variables, Data Types (int, float, string, list, tuple, dict, set)
 * Operators (Arithmetic, Logical, Comparison, Bitwise)
 * Control Flow (if-else, loops, break, continue)
-* Functions & Scope (Global, Local, lambda)
+* Functions & Scope (Global, Local, `lambda`)
 
 ✅ **Python Data Structures**
 
@@ -23,26 +27,26 @@ This is a **detailed roadmap** for learning **Python**, covering everything from
 
 ✅ **File Handling & OS Operations**
 
-* Reading/Writing Files (open(), with open())
-* Working with OS (os, shutil, sys, pathlib)
+* Reading/Writing Files (`open()`, `with open()`)
+* Working with OS (`os`, `shutil`, `sys`, `pathlib`)
 
 ✅ **Exception Handling & Debugging**
 
-* try-except-finally, Custom Exceptions
-* Logging (logging module)
+* `try-except-finally`, Custom Exceptions
+* Logging (`logging` module)
 
 ✅ **OOP in Python**
 
 * Classes & Objects
 * Encapsulation, Inheritance, Polymorphism
-* @staticmethod, @classmethod, @property
-* Magic Methods (__str__, __repr__, __getitem__, etc.)
+* `@staticmethod`, `@classmethod`, `@property`
+* Magic Methods (`__str__`, `__repr__`, `__getitem__`, etc.)
 
 ✅ **Python Modules & Virtual Environments**
 
-* Importing Modules (import, from)
+* Importing Modules (`import`, `from`)
 * Creating Custom Modules
-* Virtual Environments (venv, pipenv)
+* Virtual Environments (`venv`, `pipenv`)
 
 📌 **Mini Projects:**
 
@@ -55,21 +59,21 @@ This is a **detailed roadmap** for learning **Python**, covering everything from
 
 ✅ **Python Functional Programming**
 
-* Higher-Order Functions (map, filter, reduce)
-* Closures & Decorators (@decorator)
-* Threading & Multiprocessing (threading, multiprocessing)
+* Higher-Order Functions (`map`, `filter`, `reduce`)
+* Closures & Decorators (`@decorator`)
+* Threading & Multiprocessing (`threading`, `multiprocessing`)
 
 ✅ **Web Scraping & Automation**
 
-* requests & BeautifulSoup (HTML Parsing)
-* Selenium (Automating Web Browsing)
-* scrapy (Advanced Scraping)
+* `requests` & `BeautifulSoup` (HTML Parsing)
+* `Selenium` (Automating Web Browsing)
+* `scrapy` (Advanced Scraping)
 
 ✅ **Networking & Sockets**
 
-* socket (Creating Clients & Servers)
-* paramiko (SSH Automation)
-* scapy (Packet Sniffing & Spoofing)
+* `socket` (Creating Clients & Servers)
+* `paramiko` (SSH Automation)
+* `scapy` (Packet Sniffing & Spoofing)
 
 📌 **Mini Projects:**
 
@@ -82,18 +86,18 @@ This is a **detailed roadmap** for learning **Python**, covering everything from
 
 ✅ **Data Science & AI with Python**
 
-* numpy (Numerical Computing)
-* pandas (Data Analysis)
-* matplotlib, seaborn (Data Visualization)
-* scikit-learn (Machine Learning)
+* `numpy` (Numerical Computing)
+* `pandas` (Data Analysis)
+* `matplotlib`, `seaborn` (Data Visualization)
+* `scikit-learn` (Machine Learning)
 
 ✅ **Cybersecurity & Ethical Hacking with Python**
 
 * Writing **Custom Keyloggers**
-* Creating **Port Scanners** (socket)
+* Creating **Port Scanners** (`socket`)
 * Automating **SQL Injection Tests**
 * Writing **Malware & Reverse Shells**
-* **Bypassing Firewalls & Analyzing Traffic** (scapy)
+* **Bypassing Firewalls & Analyzing Traffic** (`scapy`)
 
 📌 **Mini Projects:**
 
@@ -106,13 +110,13 @@ This is a **detailed roadmap** for learning **Python**, covering everything from
 
 ✅ **Backend Development (Django & Flask)**
 
-* Creating APIs (Flask, Django REST Framework)
-* Authentication (JWT, OAuth2)
+* Creating APIs (`Flask`, `Django REST Framework`)
+* Authentication (`JWT`, `OAuth2`)
 * Secure Coding Practices (Sanitizing Inputs, Avoiding Injections)
 
 ✅ **API Hacking & Pentesting**
 
-* Using requests to exploit APIs
+* Using `requests` to exploit APIs
 * Automating OWASP Top 10 Attacks
 
 📌 **Mini Projects:**

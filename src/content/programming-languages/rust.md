@@ -1,3 +1,7 @@
+---
+icon: rust
+---
+
 # Rust
 
 ## **Rust Mastery Roadmap**
@@ -11,14 +15,14 @@ This **detailed roadmap** will take you from **beginner to expert** in **Rust**,
 ✅ **Introduction to Rust**
 
 * What is Rust? Why is it popular?
-* Installing Rust (rustup, cargo)
+* Installing Rust (`rustup`, `cargo`)
 * Your first Rust program: "Hello, World!"
 
 ✅ **Basic Rust Syntax**
 
-* Variables & Mutability (let, mut)
-* Data Types (i32, f64, bool, char, String)
-* Control Flow (if, match, loop, while, for)
+* Variables & Mutability (`let`, `mut`)
+* Data Types (`i32`, `f64`, `bool`, `char`, `String`)
+* Control Flow (`if`, `match`, `loop`, `while`, `for`)
 
 📌 **Mini Projects:**
 
@@ -36,8 +40,8 @@ This **detailed roadmap** will take you from **beginner to expert** in **Rust**,
 
 ✅ **Borrowing & References**
 
-* Mutable & immutable references (&T, &mut T)
-* Lifetimes ('a) and why they matter
+* Mutable & immutable references (`&T`, `&mut T`)
+* Lifetimes (`'a`) and why they matter
 
 📌 **Mini Projects:**
 
@@ -50,13 +54,13 @@ This **detailed roadmap** will take you from **beginner to expert** in **Rust**,
 
 ✅ **Working with Structs & Methods**
 
-* Defining structs (struct Person { name: String, age: u8 })
-* Implementing methods (impl Person { fn new() -> Self { ... } })
+* Defining structs (`struct Person { name: String, age: u8 }`)
+* Implementing methods (`impl Person { fn new() -> Self { ... } }`)
 
 ✅ **Enums & Pattern Matching**
 
-* Defining & using enums (enum Color { Red, Green, Blue })
-* Using match for control flow
+* Defining & using enums (`enum Color { Red, Green, Blue }`)
+* Using `match` for control flow
 
 📌 **Mini Projects:**
 
@@ -69,18 +73,18 @@ This **detailed roadmap** will take you from **beginner to expert** in **Rust**,
 
 ✅ **Using Rust’s Collections**
 
-* Vectors (Vec<T>)
-* HashMaps (HashMap<K, V>)
+* Vectors (`Vec<T>`)
+* HashMaps (`HashMap<K, V>`)
 
 ✅ **Iterators & Functional Programming in Rust**
 
-* map(), filter(), collect()
-* Creating custom iterators (impl Iterator)
+* `map()`, `filter()`, `collect()`
+* Creating custom iterators (`impl Iterator`)
 
 ✅ **Error Handling in Rust**
 
-* Result<T, E> & Option<T>
-* ? operator & custom error types
+* `Result<T, E>` & `Option<T>`
+* `?` operator & custom error types
 
 📌 **Mini Projects:**
 
@@ -93,13 +97,13 @@ This **detailed roadmap** will take you from **beginner to expert** in **Rust**,
 
 ✅ **Working with Threads**
 
-* Creating & joining threads (std::thread)
-* Sharing data safely with Arc<Mutex<T>>
+* Creating & joining threads (`std::thread`)
+* Sharing data safely with `Arc<Mutex<T>>`
 
 ✅ **Async Programming with Rust**
 
-* async & await syntax
-* Using tokio & async-std
+* `async` & `await` syntax
+* Using `tokio` & `async-std`
 
 📌 **Mini Projects:**
 
@@ -112,12 +116,12 @@ This **detailed roadmap** will take you from **beginner to expert** in **Rust**,
 
 ✅ **Low-Level Systems Programming**
 
-* Unsafe Rust (unsafe, raw pointers)
-* Working with C FFI (extern "C")
+* Unsafe Rust (`unsafe`, raw pointers)
+* Working with C FFI (`extern "C"`)
 
 ✅ **Optimizing Rust Code**
 
-* Benchmarking with cargo bench
+* Benchmarking with `cargo bench`
 * Memory optimizations & zero-cost abstractions
 
 📌 **Mini Projects:**
@@ -131,12 +135,12 @@ This **detailed roadmap** will take you from **beginner to expert** in **Rust**,
 
 ✅ **Building Web Applications in Rust**
 
-* Using actix-web & warp
+* Using `actix-web` & `warp`
 * Creating REST APIs with Rust
 
 ✅ **Networking & WebSockets**
 
-* TCP & UDP with tokio
+* TCP & UDP with `tokio`
 * Building WebSocket servers
 
 📌 **Mini Projects:**
@@ -150,11 +154,11 @@ This **detailed roadmap** will take you from **beginner to expert** in **Rust**,
 
 ✅ **Embedded Systems with Rust**
 
-* Using Rust for microcontrollers (no_std, embedded-hal)
+* Using Rust for microcontrollers (`no_std`, `embedded-hal`)
 
 ✅ **Blockchain Development with Rust**
 
-* Understanding substrate framework
+* Understanding `substrate` framework
 
 📌 **Mini Projects:**
 
